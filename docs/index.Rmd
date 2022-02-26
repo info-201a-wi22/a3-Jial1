@@ -1,0 +1,55 @@
+---
+title: "Assisgnment 3"
+author: "Jiali_Liu"
+date: "2/20/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Introduction
+The systemic injustice had led to the substantial disproportionate incarceration of people of color by the judicial and prison system. Hence, in this assignment, I will examine the additional effect of race on the racial disparities in mass incarceration in jail. Specifically, I will focus on the disproportionate incarceration of white and black people in California from 1970 to 2018 and its relationship with each state.
+
+The variable selected:
+
+The total population in prison, the black male population in prison, the white male population in prison, the total black female population in prison, and the total white female population in prison from California, and year. 
+
+Since I will focus on the disproportionate incarceration of the black and white community, the total population in prison, black population in prison age, and white population in prison would be the major variables to analyze. Also, the analysis will include the population of gender between these two races in order to provide a comprehensive view of the mass incarceration of these two races in California.  
+
+Summary
+
+All California counties display a significant disproportionate of white and black populations in prison, with 828 people of black ethnicity and 619 people of white ethnicity in prison. Also, there is an increasing trend on the disproportionate between people of black and white. Black people are outnumbering white people in prison by 216,228,207 over the last three years, and there was the slightest gap between these two races in 1997. Hence, the complex set of social and political structures has led to systemic racism in the incarceration of individuals of color in California.
+
+
+
+```{r, echo = FALSE}
+source("../source/analysis.R")
+```
+
+
+```{r cars}
+#summary(cars)
+```
+
+## Including Plots
+
+Graph1    
+```{r for graph1}
+plot(graph1)
+```
+
+This graph indicates an increasing trend of the disproportionate incarceration of people of color in California. Although there is no apparent gap between females, there is a clearly disproportionate number between male people of color, and the gap continues rising.    
+
+Graph2
+```{r for graph2}
+plot(graph2)
+```
+
+This bar charts shows an clearly view of the increasing disproportionate trend between men of black and white ethnicity. 
+
+Graph3
+```{r for graph3}
+
+```
